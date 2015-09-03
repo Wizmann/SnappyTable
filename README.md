@@ -7,8 +7,8 @@ The input data is a 6.5G txt file of json string. And the test runs on a "Intel(
 
 | Data source | Data size | QPS (1 core) | Compression Rate |
 | --- | --- | --- | --- |
-| Original  | 6.5G | - | - | 1.0 |
-| Deduplicated | 3.1G | - | - | 0.48 |
+| Original  | 6.5G | - | 1.0 |
+| Deduplicated | 3.1G | - | 0.48 |
 | Deduplicate + Snappy + Compress with no batching | 0.7G | 135K | 0.11 |
 | Deduplicate + Snappy + Compress with 4k block | 0.58G | 124K | 0.09 |
 | Deduplicate + Snappy + Compress with 8k block | 0.51G | 99K | 0.08 |
